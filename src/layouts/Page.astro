@@ -11,7 +11,7 @@ const { title } = Astro.props;
         <meta name="theme-color" content="#94C768" />
         <slot name="metadata">
             <meta property="og:title" content={title} />
-            <!-- <meta content="image/gif" property="og:image:type"> -->
+            <meta content="image/gif" property="og:image:type">
             <meta content="cat.gif" property="og:image">
         </slot>
     </head>
